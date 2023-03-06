@@ -6,7 +6,7 @@ import {
   Card,
   Button,
 } from "react-bootstrap";
-import { useQuery, useMutation } from "@apollo/react-hooks";
+import { useQuery, useMutation } from '@apollo/client';
 
 import Auth from "../utils/auth";
 import { removeBookId } from "../utils/localStorage";
@@ -65,7 +65,7 @@ const SavedBooks = () => {
           <Row>
           {userData.savedBooks.map((book) => {
               return (
-                <Col md="4">
+                <Col key={book.bookId} md="4" >
               <Card key={book.bookId} border="dark">
                 {book.image ? (
                   <Card.Img
