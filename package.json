@@ -16,8 +16,6 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "@apollo/client": "^3.7.9",
-    "@apollo/react-hooks": "^4.0.0",
-    "apollo-server-express": "^2.15.0"
+    "if-env": "^1.0.4"
   }
 }
