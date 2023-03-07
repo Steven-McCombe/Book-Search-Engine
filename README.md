@@ -1,6 +1,6 @@
 # Book Search Engine
 ## Description
-This web application uses the Google Book Search API to provide a seamless user experience for searching and saving preferred books. It provides users with details of the book, including author name and a brief description. With a React.js front-end and MongoDB database, the application is powered by Apollo Express servers, ensuring optimal performance and security. Follow the link below to sign up and start saving your preferred books effortlessly.
+This web application uses the Google Book Search API to provide a seamless user experience for searching and saving preferred books. It provides users with details of the book, including author name, book image and a brief description. With a React.js front-end and MongoDB database, the application is powered by Apollo Express servers, ensuring optimal performance and security. The application is deployed on Heroku. Follow the link below to sign up and start saving your preferred books effortlessly.
 
 ## Table of Contents
 * [Installation](#installation)
